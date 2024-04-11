@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kontakta oss</title>
+</head>
+<body>
+    <header>
+        <h1><a href="startsida.html">Game_helpr</a></h1>  
+    </header>
+    <main>
+           <div id="notPong">
+               <div id="rect1"></div>
+               <div id="rect2"></div>
+               <div id="circle"></div>
+           </div>
+
+        <nav class="nav_fixed">
+            <ul>
+                <li><a href="startsida.html"><img src="ikoner/home_app_logo_FILL1_wght400_GRAD0_opsz24.svg" alt=""></a></li>
+                <li><a href="news.html"><img src="ikoner/newspaper_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a></li>
+                <li><a href="our_games.html"><img src="ikoner/joystick_FILL1_wght400_GRAD0_opsz24.svg" alt=""></a></li>
+                <li><a href="services.html"><img src="ikoner/receipt_long_FILL1_wght400_GRAD0_opsz24.svg" alt=""></a></li>
+                <li><a href="about_us.html"><img src="ikoner/emoji_people_FILL1_wght400_GRAD0_opsz24.svg" alt=""></a></li>
+                <li><a href="contact.html"><img src="ikoner/support_agent_FILL1_wght400_GRAD0_opsz24.svg" alt=""></a></li>
+            </ul>
+        </nav>
+
+           <div class="page">
+            <h2>Kontakta oss</h2>
+            <form class="contact" action="https://wwwlab.webug.se/examples/webbplatsdesign/recieve/recieve.php" method="post">
+                <fieldset>
+                    <legend>Information</legend>
+                    <div class="selection">
+                        <select name="type_of_help">
+                            <option value="">--Välj kategori--</option>
+                            <option value="support">Support</option>
+                            <option value="consultation">Konsultation</option>
+                            <option value="guidance">Spirituell vägledning</option>
+                            <option value="other">Annat</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <input type="text" name="company_name" placeholder="Företagsnamn">
+                    </div>
+
+                    <div>
+                        <input type="number" name="company_number" placeholder="Organisationsnummer:">
+                    </div>
+
+                    <div>
+                        <input type="email" name="company_email" placeholder="Företagsmail:">
+                    </div>
+
+                    <div>
+                        <textarea name="company_problem" placeholder="Vad behöver ni hjälp med?" cols="50" rows="5"></textarea>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Budget</legend>
+                    <label for="budget">Vad är er ungefärliga budget?</label>
+                    <div>
+                        <input type="number" id="budget" name="budget" placeholder="Budget (Kr)">
+                    </div> 
+
+                    <label>Behöver ni ekonomisk rådgivning?</label>
+                    
+                    <div>
+                        <label for="radio_economy1">Ja.</label>
+                        <input type="radio" id="radio_economy1" name="radio_economy" value="ja">
+
+                        <label for="radio_economy2">Nej.</label>
+                        <input type="radio" id="radio_economy2" name="radio_economy" value="nej">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Misc.</legend>
+                    <div class="checkbox">
+                        <label for="saving">Jag godkänner att ni sparar mina uppgifter.</label>
+                        <input type="checkbox" name="savemydata" id="saving" value="yes">
+                    </div>
+
+                    <div class="checkbox">
+                        <label for="newsletter">Prenumera på nyhetsbrev</label>
+                        <input type="checkbox" name="newsletter" id="newsletter" value="yes">
+                    </div>
+
+                    <input type="submit" value="Skicka">
+
+                </fieldset>
+            </form>
+           </div>
+    </main>
+    <footer>
+        <a href="contact.html"><img src="ikoner/vertical_align_top_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a>
+    </footer>
+</body>
+</html>
