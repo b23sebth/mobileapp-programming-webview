@@ -19,7 +19,7 @@ private WebView myWebView;
 Jag lade in tidigare HTML filer + bilder från en tidigare kurs. Alla bilder har relevant licensinformation inuti [info_bild](app/src/main/assets/info_bild).
 Slutligen implementerade jag "showExternalWebPage()" och "showInternalWebPage" och uppdaterade menyknapparna att kalla på funktionerna.
 
-##Bilder
+## Bilder
 ![Screenshot_20240412_143738.png](Screenshot_20240412_143738.png)
 ![screenshot_internal_webpage.png](screenshot_internal_webpage.png)
 ![screenshot_external_webpage.png](screenshot_external_webpage.png)
