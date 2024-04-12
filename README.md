@@ -1,6 +1,6 @@
 
 # Rapport
-Jag började med att byta namn på appen till "Uppgift_2".Sedan lade jag till internetåtkomst för appen. Efter det skapade jag en WebView och gav den ID't my_WebView.
+Jag började med att byta namn på appen till "Uppgift_2". Sedan lade jag till internetåtkomst för appen. Efter det skapade jag en WebView och gav den ID't my_WebView.
 I kodexemplet nedan skapade jag en privat member variabel och instantierade den. Inuti samma kodexempel skapade jag WebViewClient samt tillät körning av JavaScript.
 ```
 private WebView myWebView;
