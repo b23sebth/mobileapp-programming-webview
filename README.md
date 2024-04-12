@@ -16,7 +16,7 @@ private WebView myWebView;
         myWebView.setWebViewClient(new WebViewClient());
         myWebView.getSettings().setJavaScriptEnabled(true);
 ```
-Jag lade in tidigare HTML filer + bilder från en tidigare kurs. Alla bilder har relevant licensinformation inuti [info_bild](app/src/main/assets/info_bild).
+Jag lade in HTML filer + bilder från en tidigare kurs. Alla bilder har relevant licensinformation inuti [info_bild](app/src/main/assets/info_bild).
 Slutligen implementerade jag "showExternalWebPage()" och "showInternalWebPage" och uppdaterade menyknapparna att kalla på funktionerna.
 
 ## Bilder
